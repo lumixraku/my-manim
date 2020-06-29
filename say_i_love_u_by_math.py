@@ -1,5 +1,5 @@
 # my-manim
-Decadance
+from manimlib.imports import *
 
 class scene1(Scene):
   CONFIG = {

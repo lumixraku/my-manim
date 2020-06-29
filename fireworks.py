@@ -1,6 +1,11 @@
+#!/usr/bin/env python
+
 from manimlib.imports import *
+
 import math
 
+print(SingleStringTexMobject)
+print(SwitchOn)
 
 class scene(Scene):
     def construct(self):
@@ -176,6 +181,7 @@ class scene4(Scene):
         C.allt=time
         self.add(C)
         C.add_updater(self.Cup)
+  
   
     def construct(self):
 
